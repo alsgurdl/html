@@ -1,0 +1,7 @@
+/* 다른 스타일 시트에서 또 다른 */
+@import "./si.css";
+
+h1,p{
+  color: brown;
+  background-color: aqua;
+}
