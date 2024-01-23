@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table{
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+<body>
+  <!-- table 태그 표를 작성하는 태그-->
+  <table border="1">
+    <!--테이블 자식태그 r은 표의 행을 나타냅니다-->
+<tr>
+<th>이름</th><!-- 자식태그 td는 한 행에 들어갈 열을 나타냅니다-->
+<th>나이</th>
+<th>성별</th>
+<th>주소</th>
+<td rowspan="4" align="center">
+  <button>세로</button>
+</td>
+</tr>
+<tr>
+  <td>철수</td>
+  <td>30</td>
+  <td>남</td>
+  <td>서울</td>
+  
+</tr>
+<tr>
+  <td>영희</td>
+  <td>37</td>
+  <td>여</td>
+  <td>강원도</td>
+  
+</tr>
+<tr>
+  <!--가로 셀 병합은 : colspan, 세로 병합은: rowspan-->
+  <td colspan="4" align="center">
+    <button>버튼</button>
+  </td>
+</tr>
+  </table>
+</body>
+</html>
