@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!--
+사용자가 입려간 값들을 다른 곳을 전달하기 위해서
+from 태그가 반드시 필요
+action: 전송할 정보를 처리할 페이지의 url -> 웹 서버의 특정 url을 가리키게 됨
+  -->
+  <form action="#" autocomplete="off">
+    <!--name을 통해 추후에 서버 내부에서 해당 입력값을 지목-->
+    아이디: <input type="text" name="id" value="melong"> <br>
+    비밀번호: <input type="password" name="pw" placeholder="비밀번호" required><br>
+
+    # 성별 <br>
+    <input type="radio" name="gen" value="mal">남
+    <input type="radio" name="gen" value="fa">여 <br>
+
+    <!-- radio, checkbox는 value를 주어야 
+  사용자가 선택한 값을 전송할 수 있다-->
+    #취미<br>
+    <input type="checkbox" name="ho" value="re"> 독서
+    <input type="checkbox" name="ho" value="sl"> 축구
+    <input type="checkbox" name="ho" value="so"> 농구
+    <input type="checkbox" name="ho" value="ga"> 배구<br>
+
+    #자기소개<br>
+    <input type="email" name="mail" placeholder="이메일"> <br>
+    <input type="text" name="gew" id=""><br>
+<input type="number" name="age" min="1" max="200" placeholder="나이 입력"><br>
+<input type="range" id="point" min="0" max="10" step="1" value="2"> <br>
+<input type="file" name="up" ><br>
+
+    <textarea cols="30" rows="10" name="int"></textarea> <br>
+    <!--submit은 사용자가 입력한 값을 from action에 지정된
+경로로 제출하는 용도
+button 태그로도 그현이 가능합니다
+<input type="submit" value="회원가입">
+-->
+    <input type="submit" value="회원가입">
+
+  </form>
+
+
+
+</body>
+
+</html>
