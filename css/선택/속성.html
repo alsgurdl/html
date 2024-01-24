@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    input[value=hello] {
+width: 200px;
+color: aqua;
+    }
+    input[type=password]{
+color: red;
+    }
+    input[disabled]{
+opacity: 0.2;
+    }
+    button[class^=bt]{
+      font-weight: bold;
+      border-radius: 20px;
+    }
+    button[class$= su]{
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+ <input type="text" value="hello">
+ <input type="password" value="1234">
+ <input type="text" value="det" disabled>
+ <button class="bt-a">bt</button>
+ <button class="bt-su">da</button>
+</body>
+</html>
