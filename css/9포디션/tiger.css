@@ -1,0 +1,79 @@
+
+@import url(../../../common.css);
+body{
+  background: gray;
+  font-size: 14px;
+  font-family: '굴림', serif;
+}
+#wrapper{
+  width: 50%;
+  
+  background: rgb(13, 69, 83);
+  margin: 0px auto ;
+ 
+}
+header{
+  text-align: center;
+  font-weight: bold;
+  color: yellow;
+  font-size: 20px;
+  padding: 10px;
+}
+strong{
+  font-size: 45px;
+  color: white;
+}
+span{
+  font-size: 25px;
+  color: yellow;
+}
+em{
+  font-size: 35px;
+  color: rgb(219, 219, 219);
+}
+.container{
+  background: gainsboro;
+}
+.container .menu{
+  width: 20%;
+  
+  
+  float: left;
+ 
+  text-decoration: underline;
+  color: black;
+  padding: 20px;
+  font-size: 10px;
+}
+
+li{
+  padding-bottom: 7px;
+}
+.content{
+  background: white;
+  width: 80%;
+ 
+ 
+  
+  float: right;
+}
+h2{
+  font-size: 20px;
+  padding: 10px 20px;
+  background: rgba(241, 0, 0, 0.829);
+  color: yellow;
+  font-weight: bold;
+}
+p{
+  padding: 20px;
+  text-align: justify;
+  
+}
+footer{
+  padding: 10px 20px;
+  background: rgba(255, 174, 244, 0.562);
+
+}
+
+
+

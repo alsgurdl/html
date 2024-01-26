@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+.gra{
+width: 400px;
+height: 300px;
+padding: 100px;
+border: 4px dashed gray;
+position: relative;
+}
+.pa{
+  width: 300px;
+  height: 300px;
+  border: 4px dashed orange;
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+.ch{
+  width: 120px;
+  height: 80px;
+  border: 4px dashed red;
+  background: lightcoral;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.absolute{
+  position: absolute;
+  right: 100px;
+  bottom: 150px;
+}
+  </style>
+</head>
+<body>
+  <div class="gra">
+    <div class="pa">
+      <div class="ch">1</div>
+      <div class="ch absolute">2</div>
+      <div class="ch">3</div>
+    </div>
+  </div>
+</body>
+</html>
