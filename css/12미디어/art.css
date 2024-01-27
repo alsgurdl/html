@@ -6,6 +6,7 @@ body{
   width: 60%;
   margin: 0px auto;
   background: orange;
+  
 }
 header{
   
@@ -13,14 +14,18 @@ header{
   text-align: center;
   font-weight: bold;
   margin: auto;
-}
-h1{
-  font-size: 50px;
- 
   
 }
-span{
+
+header h1{
+  font-size: 50px;
+  text-indent: 20%;
+ 
+}
+header span{
   font-size: 15px;
+  display: inline-block;
+  text-indent: 10px;
   
 }
 h2{
@@ -46,4 +51,108 @@ h2{
   width: 20%;
   float: right;
   border: 1px ;
+}
+.side-menu h3{
+  background: rgb(112, 21, 21);
+  color: white;
+}
+.side-menu li{
+  font-size: 10px;
+  padding: 5px;
+}
+.side-menu a{
+  
+  color: black ;
+
+}
+.main-content{
+  background: rgb(199, 199, 199);
+}
+  
+
+.main-content h4{
+  background: rgb(50, 65, 150);
+  margin: auto 10px;
+  padding: 7px;
+  
+}
+.main-content a{
+  text-decoration: none;
+  color: white;
+ 
+}
+.main-content .artist{
+  padding: 10px;
+  font-weight: bold;
+}
+.main-content .detail{
+padding: 20px 10px;
+font-size: 10px;
+}
+
+.banner .all{
+  color: gray;
+  text-decoration: underline;
+
+}
+.banner li{
+  text-indent: 1em;
+}
+.banner .love{
+  text-decoration: underline;
+  color: orange;
+ 
+}
+
+.banner strong{
+  display: inline-block;
+  font-weight: bold;
+  text-indent: 10px;
+  margin: 5px auto;
+}
+.banner a{
+  color: black;
+  font-weight: bold;
+ 
+ 
+}
+.banner span{
+  display: inline-block;
+  text-indent: 10px;
+  margin: 5px auto;
+}
+.banner li{
+
+}
+.banner a{
+  font-size: 10px;
+  text-indent: 10px;
+
+  }
+.banner .link span{
+font-size: 10px;
+
+display: inline-block;
+text-indent: 10px;
+
+
+}
+footer{
+  background: rgb(50, 65, 150);
+  text-align: center;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer span{
+  font-size: 10px;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
 }
