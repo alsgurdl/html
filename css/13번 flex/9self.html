@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .con{
+     width: 700px;
+      height: 400px;
+      border: 4px solid #000;
+      display: flex;
+      flex-flow: row wrap;
+     align-items: center;
+    }
+  
+    .it{
+      width: 150px;
+      height: 100px;
+      background: green;
+      border: 4px dashed greenyellow;
+      border-radius: 10px;
+      font-size: 40px;
+      line-height: 100px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+    }
+    .it2{
+      align-self: flex-end;
+    }
+    .it4{
+      align-self: flex-start;
+    }
+    .it7{
+      align-self: stretch;
+      height: auto;
+    }
+    
+ 
+  </style>
+</head>
+<body>
+  <div class="con">
+   <div class="it it1">1</div>
+   <div class="it it2">2</div>
+   <div class="it it3">3</div>
+   <div class="it it4">4</div>
+   <div class="it it5">5</div>
+   <div class="it it6">6</div>
+   <div class="it it7">7</div>
+   <div class="it it8">8</div>
+    
+  </div>  
+</body>
+</html>
